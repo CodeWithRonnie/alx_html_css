@@ -6,6 +6,7 @@ body, main{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    font-family: "Lora", serif;
 }
 
 main{
@@ -24,4 +25,8 @@ aside{
 
 article, aside{
    overflow: auto;
+}
+
+.Logo{
+    color: rgb(9, 134, 9);
 }
