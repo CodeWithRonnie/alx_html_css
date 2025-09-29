@@ -39,7 +39,7 @@ li a{
 
 .hero-content{
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 .hero-content h1{
@@ -66,5 +66,30 @@ span{
     font-size: 10px;
     border-radius: 60px;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 4rem;
+}
+
+.learn{
+    padding-top: 3rem;
+    color: #C271FF;
+    font-size: 1.3rem;
+}
+
+.learn-1{
+    font-size: 1.3rem;
+}
+
+.pros-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.pros-content{
+    border: 1px solid blue;
+    
+}
+
+.pros-content, h3{
+    font-weight: bold;
 }
