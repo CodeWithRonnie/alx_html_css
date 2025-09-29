@@ -1,0 +1,70 @@
+
+*{box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+   
+}
+
+.hero{
+    background-image: url('../css_advanced/assets/Object.png');
+    height: 800px;
+    background-size: cover;
+   
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 5rem;
+}
+
+.header-links{
+    display: inline;
+    margin-left:5rem;
+    padding-left: 0 8%;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-content{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.hero-content h1{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+span{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 1rem;
+    font-size: 15px;
+}
+
+.register-btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #C271FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 4px black;
+    padding: 10px 12px;
+    font-size: 10px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
