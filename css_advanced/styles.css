@@ -111,8 +111,8 @@ span{
 }
 
  .pros-img{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
  }
 .Bruce{
     border-radius: 50%;
@@ -137,4 +137,68 @@ span{
     text-align: center;
     margin-left: 4%;
     
+}
+
+/*Quote Section*/
+.quote_section {
+width: 1440px;
+height: 392px;
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  background-color: #C271FF;
+  color: white;
+  padding: 60px; 
+}
+
+.quote-img {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-left: 50%;  
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;  
+  width: 700px;        
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 33.6px; 
+  width: 660px;
+  height: 68px;        
+  margin: 0;      
+  margin-left: -5%; 
+  margin-top: -3%;           
+  color: #FFFFFF;
+}
+
+.quote-info {
+width: 129px;
+height: 34px;
+top: 90px;
+font-weight: 700;
+font-size: 18px;
+line-height: 33.6px;
+letter-spacing: 0px;
+margin-left: 7%;
+margin: -3%;
+        
+}
+
+.quote-info-2{
+    width: 165px;
+    height: 34px;
+    top: 124px;
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+    font-style: italic;
 }
