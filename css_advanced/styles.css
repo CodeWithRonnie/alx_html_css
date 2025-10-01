@@ -274,3 +274,42 @@ margin: -3%;
     justify-content: space-between;
 }
 
+
+/**Membership Section**/
+.membership-section{
+    background-color: #071629;
+    width: 1440px;
+    height: 502px;
+}
+
+.membership-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    
+}
+
+.membership-title{
+    margin-left: 9%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    color:#FFFFFF;
+    
+}
+
+.membership-content{
+    margin: 0 9%;
+    width: 230px;
+    height: 153px;
+    color: white;
+    margin-top: 8%;
+    line-height: 24px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-2{
+    margin-top:6%;
+}
