@@ -314,3 +314,35 @@ margin: -3%;
 .btn-2{
     margin-top:2%;
 }
+
+/**FAQ**/
+.f-a-q{
+        margin-left: 15%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    color:#000000;
+    padding-top: 4%;
+}
+
+.frequently-q{
+    margin-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 930px;
+    margin: 0 auto;
+    height: 707px;
+    margin-left: 20%;
+}
+
+.how-it-works{
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    padding: 15px;
+    width: 450PX;
+    height: 242px;
+    line-height: 24px;
+    padding: 0 10%;
+}
