@@ -205,7 +205,8 @@ margin: -3%;
 
 
 /** Popular Videos**/
-.popular-videos > h2{
+.most-popular{
+    margin-left: 22%;
     text-align: center;
     margin-top: 7%;;
     font-weight: 100;
@@ -216,18 +217,60 @@ margin: -3%;
 .popular-vid-container{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    width:1440px;
+    width: 1228px;
+    height: 450px;
+    margin-left: 20%;
+
   
 }
 
 .phillip{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+}
+
+.philname{
+    color: #C271FF;
+    margin-left: -49%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    
 }
 
 .Phil{
     display: flex;
     justify-content: space-around;
-    margin-left: 5%;
+    margin-left: -38%;
 }
+
+.videos{
+    justify-content: space-evenly;
+    
+}
+
+.smile{
+    width: 52%;
+    margin-left: -3%;
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+.smile-text{
+    width: 250px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.ratins{
+    display: flex;
+    justify-content: space-between;
+}
+
