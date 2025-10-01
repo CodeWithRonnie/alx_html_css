@@ -346,3 +346,40 @@ margin: -3%;
     line-height: 24px;
     padding: 0 10%;
 }
+
+/**footer**/
+.footer{
+    background-color:#071629;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1440px;
+    height: 249px;
+}
+
+.footer-img, .socials{
+    display: block;
+    width: 169px;
+    height: 30px;
+    margin: 8% 18%;
+    
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 130px;
+    height: 30px;
+    
+}
+
+.footer > p{
+    align-self: flex-end;
+    text-align: start;
+    margin: 0 auto;
+    margin-left: -50%;
+    margin-bottom: 2%;
+    color: gray;
+    font-size: 12px;
+}
