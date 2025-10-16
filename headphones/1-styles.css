@@ -36,12 +36,7 @@ header{
     color: var(--main-color);
 }
 
-li a {
-    text-decoration: none;
-    color: var(--main-color);
-}
-
-li a:hover{
+header li:hover{
     cursor: pointer;
     color: var(--accent-color);
     transition: 0.3s;
@@ -86,6 +81,39 @@ li a:hover{
     color: var(--main-color);
     font-size: 18px;
     line-height: 2rem;
+}
+
+/* About Section*/
+
+.about-info1{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 8rem 0;
+}
+
+.about-icons{
+    text-align: center;
+    width: 14%;
+   
+}
+
+.about-icons p{
+    display: block;
+    margin:0 auto;
+    margin-top: 40px;
+    width: 68%;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 @media (max-width: 1024px) {
