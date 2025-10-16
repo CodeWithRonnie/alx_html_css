@@ -15,10 +15,10 @@ body{
 }
 
 header{
-    background-image: url(/assets/headphones_hero_1.jpg);
+    background-image: url(assets/headphones_hero_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
+
 }
 
 .nav-bar{
@@ -48,16 +48,16 @@ header li:hover{
     align-items: center;
     color: var(--main-color);
     font-weight: 600;
-    margin-top: 21%;
+    margin-top: 19%;
 }
 
 .header-info h1{
-    margin-left: 12%;
+    margin-left: 5%;
 }
 .header-info p{
-    width: 40%;
+    width: 50%;
     text-align: center;
-    margin-left: 13%;
+    margin-left: 2%;
 }
 
 .header-info button{
@@ -69,16 +69,77 @@ header li:hover{
     color: var(--main-color);
     font-weight: 900;
     cursor: pointer;
-    margin-top: 6rem;
-    margin-left: 13%;
+    margin-top: 2rem;
+    
 }
 
 .hero-info{
     text-align: center;
-    margin: 8%;
-    margin-left: 28%;
+    margin: 5%;
+    margin-left: 24%;
     width: 57%;
     color: var(--main-color);
     font-size: 18px;
     line-height: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .header-info {
+        width: 100%;
+        margin-left: -5%;
+        font-size: 0.95rem;
+    }
+    
+
+    .nav-bar {
+        padding: 15px 50px;
+    }
+
+    .header-info button {
+        width: 10%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-info {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .nav-bar li {
+        margin: 5px 0;
+    }
+
+    .header-info button {
+        width: 50%;
+        margin: 2rem auto 0 auto;
+    }
+
+    header {
+        height: auto;
+        padding: 50px 0;
+        background-size: cover;
+    }
+
+    .hero-info {
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
