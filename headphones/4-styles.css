@@ -264,8 +264,7 @@ li a:hover{
     }
 }
 .contact-us {
-    background-color: #ffffff; /* white background */
-    display: flex;
+    background-color: #ffffff; 
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -280,8 +279,8 @@ li a:hover{
 }
 
 .contact-content hr {
-    width:350px; /* line length */
-    border: -2px solid #363333; /* thin black line */
+    width:350px; 
+    border: -2px solid #363333;
     margin: 28px 0;
 }
 
@@ -300,7 +299,7 @@ li a:hover{
 
 .contact-content button:hover {
     transform: scale(1.05);
-    background-color: #ff4b4b; /* slightly darker accent */
+    background-color: #ff4b4b; 
 }
 
 /* Responsive */
